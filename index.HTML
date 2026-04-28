@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metodología Scrum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #1e293b;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0f172a;
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Metodología Scrum</h1>
+    <p>Framework ágil para la gestión eficiente de proyectos de software</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#fundamentos">Fundamentos</a></li>
+      <li><a href="#roles">Roles</a></li>
+      <li><a href="#artefactos">Artefactos</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#sprint">Sprint</a></li>
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#desafios">Desafíos</a></li>
+      <li><a href="#conclusion">Conclusión</a></li>
+    </ul>
+  </nav>
+
+  <section id="introduccion">
+    <h2>1. Introducción a Scrum</h2>
+    <p>
+      Scrum es un framework ágil utilizado para gestionar proyectos complejos, especialmente en el desarrollo de software.
+      Fue diseñado para mejorar la colaboración entre equipos, aumentar la productividad y permitir entregas continuas
+      de valor mediante ciclos de trabajo cortos e iterativos.
+    </p>
+
+    <p>
+      A diferencia de los modelos tradicionales, Scrum permite adaptarse rápidamente a cambios en los requisitos del proyecto.
+      Esto hace que sea una metodología ideal para entornos dinámicos donde las necesidades del cliente evolucionan constantemente.
+    </p>
+
+    <p>
+      Scrum se basa en la transparencia, la inspección continua y la adaptación constante. Gracias a estos principios,
+      los equipos pueden detectar problemas rápidamente y mejorar de manera continua durante el desarrollo del producto.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Equipo Scrum trabajando">
+  </section>
+
+  <section id="fundamentos">
+    <h2>2. Fundamentos de Scrum</h2>
+
+    <p>
+      Scrum se apoya en tres pilares fundamentales que garantizan el correcto funcionamiento del framework:
+    </p>
+
+    <ul>
+      <li><strong>Transparencia:</strong> toda la información del proyecto debe ser visible para el equipo.</li>
+      <li><strong>Inspección:</strong> el progreso y los resultados deben revisarse constantemente.</li>
+      <li><strong>Adaptación:</strong> el equipo debe ajustarse rápidamente a los cambios o problemas detectados.</li>
+    </ul>
+
+    <p>
+      Estos pilares ayudan a mantener un flujo de trabajo organizado y orientado a la mejora continua.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Metodología Scrum">
+  </section>
+
+  <section id="roles">
+    <h2>3. Roles en Scrum</h2>
+
+    <h3>Scrum Master</h3>
+    <p>
+      El Scrum Master es el responsable de garantizar que Scrum se implemente correctamente.
+      Su función principal es facilitar el trabajo del equipo, eliminar obstáculos y asegurar que se sigan las prácticas ágiles.
+    </p>
+
+    <h3>Product Owner</h3>
+    <p>
+      El Product Owner representa los intereses del cliente y define las prioridades del producto.
+      Administra el Product Backlog y toma decisiones sobre las funcionalidades que aportan mayor valor.
+    </p>
+
+    <h3>Equipo de Desarrollo</h3>
+    <p>
+      El equipo de desarrollo está formado por profesionales multidisciplinarios encargados de construir el producto.
+      Son responsables de entregar incrementos funcionales al final de cada Sprint.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Roles Scrum">
+  </section>
+
+  <section id="artefactos">
+    <h2>4. Artefactos de Scrum</h2>
+
+    <h3>Product Backlog</h3>
+    <p>
+      Es una lista ordenada de todas las funcionalidades, mejoras y requisitos del producto.
+      El Product Owner se encarga de priorizar este listado.
+    </p>
+
+    <h3>Sprint Backlog</h3>
+    <p>
+      Contiene las tareas seleccionadas para desarrollarse durante un Sprint específico.
+    </p>
+
+    <h3>Incremento</h3>
+    <p>
+      Es el resultado funcional obtenido al finalizar el Sprint.
+      Debe cumplir con los criterios de calidad establecidos por el equipo.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop" alt="Artefactos Scrum">
+  </section>
+
+  <section id="eventos">
+    <h2>5. Eventos de Scrum</h2>
+
+    <h3>Sprint Planning</h3>
+    <p>
+      Reunión donde el equipo define qué tareas se desarrollarán durante el Sprint.
+    </p>
+
+    <h3>Daily Scrum</h3>
+    <p>
+      Reunión diaria de corta duración donde los miembros del equipo comparten avances,
+      problemas y objetivos del día.
+    </p>
+
+    <h3>Sprint Review</h3>
+    <p>
+      Evento en el que se presenta el incremento desarrollado a los interesados del proyecto.
+    </p>
+
+    <h3>Sprint Retrospective</h3>
+    <p>
+      Espacio dedicado a analizar el trabajo realizado y detectar oportunidades de mejora.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop" alt="Eventos Scrum">
+  </section>
+
+  <section id="sprint">
+    <h2>6. El Sprint en Scrum</h2>
+
+    <p>
+      El Sprint es el núcleo principal de Scrum. Se trata de un periodo corto de trabajo,
+      generalmente de una a cuatro semanas, donde el equipo desarrolla funcionalidades específicas.
+    </p>
+
+    <p>
+      Durante el Sprint no deben realizarse cambios que afecten el objetivo definido.
+      Esto permite mantener el enfoque y garantizar entregas de calidad.
+    </p>
+
+    <p>
+      Al finalizar cada Sprint se obtiene un incremento funcional del producto listo para ser evaluado.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop" alt="Sprint Scrum">
+  </section>
+
+  <section id="beneficios">
+    <h2>7. Beneficios de Scrum</h2>
+
+    <ul>
+      <li>Mayor flexibilidad ante cambios.</li>
+      <li>Entrega continua de valor.</li>
+      <li>Mejora la comunicación entre equipos.</li>
+      <li>Incrementa la productividad.</li>
+      <li>Permite detectar errores rápidamente.</li>
+      <li>Favorece la mejora continua.</li>
+    </ul>
+
+    <p>
+      Gracias a estos beneficios, Scrum es ampliamente utilizado por empresas tecnológicas y equipos de desarrollo modernos.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop" alt="Beneficios Scrum">
+  </section>
+
+  <section id="desafios">
+    <h2>8. Desafíos en Scrum</h2>
+
+    <p>
+      Aunque Scrum ofrece múltiples ventajas, también presenta desafíos importantes.
+    </p>
+
+    <ul>
+      <li>Requiere compromiso constante del equipo.</li>
+      <li>Puede existir resistencia al cambio.</li>
+      <li>La mala comunicación afecta el rendimiento.</li>
+      <li>La falta de experiencia puede generar desorganización.</li>
+    </ul>
+
+    <p>
+      Para implementar Scrum correctamente es fundamental que todos los participantes comprendan sus principios y responsabilidades.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Desafíos Scrum">
+  </section>
+
+  <section id="conclusion">
+    <h2>9. Conclusión</h2>
+
+    <p>
+      Scrum se ha convertido en uno de los frameworks ágiles más importantes en el desarrollo de software.
+      Su enfoque iterativo, colaborativo y adaptable permite a los equipos entregar productos de alta calidad de manera eficiente.
+    </p>
+
+    <p>
+      La correcta aplicación de Scrum mejora la comunicación, optimiza los procesos y facilita la adaptación a cambios constantes.
+      Por esta razón, muchas organizaciones utilizan Scrum como base para sus proyectos tecnológicos.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop" alt="Conclusión Scrum">
+  </section>
+
+  <footer>
+    <p>Presentación profesional sobre Scrum | Framework Ágil para Desarrollo de Software</p>
+  </footer>
+
+</body>
+</html>
